@@ -1,0 +1,312 @@
+<mxfile host="app.diagrams.net" modified="2024-06-19T02:57:54.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="JN5RDQH33Wy7NbTzzpyg" version="24.5.4" type="device">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1356" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-126" value="审批承接页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="100" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-126">
+          <mxGeometry x="45" y="50" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-219" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SL8McxTS5oP6oHlqmDnG-126" target="SL8McxTS5oP6oHlqmDnG-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="170" as="sourcePoint" />
+            <mxPoint x="235" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-220" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-221" value="&amp;nbsp;表单结构数据&lt;div&gt;表单内容值&lt;div&gt;预览状态标识&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#EA6B66;" vertex="1" connectable="0" parent="SL8McxTS5oP6oHlqmDnG-219">
+          <mxGeometry x="0.0028" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-251" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;校验数据&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="SL8McxTS5oP6oHlqmDnG-126">
+          <mxGeometry x="-0.5224" y="10" relative="1" as="geometry">
+            <mxPoint x="-130" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="25" y="820" />
+              <mxPoint x="25" y="850" />
+            </Array>
+            <mxPoint x="-125" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-191" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SL8McxTS5oP6oHlqmDnG-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-128" y="870" as="sourcePoint" />
+            <mxPoint x="770" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-192" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-193" value="提交表单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#EA6B66;" vertex="1" connectable="0" parent="SL8McxTS5oP6oHlqmDnG-191">
+          <mxGeometry x="-0.0057" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-138" value="发起，待审批，重新发起入门" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-139" value="表单渲染器组件" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="375" y="20" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-140" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-141" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="SL8McxTS5oP6oHlqmDnG-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="54.5" y="670" as="sourcePoint" />
+            <mxPoint x="54.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-142" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="SL8McxTS5oP6oHlqmDnG-152" target="SL8McxTS5oP6oHlqmDnG-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="54.5" y="670" as="sourcePoint" />
+            <mxPoint x="54.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-151" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="SL8McxTS5oP6oHlqmDnG-152">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="430" as="sourcePoint" />
+            <mxPoint x="55" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-152" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-153" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="233" y="320.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-154" value="重新发起" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontColor=#EA6B66;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-163" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;color: rgb(234, 107, 102); font-size: 9pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;FrormExt目录&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="90" width="110" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-179" value="Server&lt;div&gt;远端&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-183" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SL8McxTS5oP6oHlqmDnG-179">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="961" y="970" as="sourcePoint" />
+            <mxPoint x="960" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-196" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#000000&quot;&gt;parserRender.js&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="110" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-231" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-196">
+          <mxGeometry x="50" y="400" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-167" value="通过事件逐层传递数据变动" style="endArrow=classic;dashed=1;html=1;rounded=0;endFill=1;fontColor=#EA6B66;entryX=1;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SL8McxTS5oP6oHlqmDnG-196" target="SL8McxTS5oP6oHlqmDnG-248">
+          <mxGeometry x="-0.0029" width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="790" as="sourcePoint" />
+            <mxPoint x="-250" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="790" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-200" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#000000&quot;&gt;FormParser.vue&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="110" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-211" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SL8McxTS5oP6oHlqmDnG-200" target="SL8McxTS5oP6oHlqmDnG-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-125" y="240" as="sourcePoint" />
+            <mxPoint x="55" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-212" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-213" value="&amp;nbsp;表单结构数据&lt;div&gt;表单内容值&lt;div&gt;编辑状态标识&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#EA6B66;" vertex="1" connectable="0" parent="SL8McxTS5oP6oHlqmDnG-211">
+          <mxGeometry x="0.0028" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-133" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-200">
+          <mxGeometry x="50" y="100" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-201" value="表单解析器" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="545" y="20" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-202" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="200" as="sourcePoint" />
+            <mxPoint x="420" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-203" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-206" value="表单结构数据&lt;div&gt;新增状态标识&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#EA6B66;" vertex="1" connectable="0" parent="SL8McxTS5oP6oHlqmDnG-202">
+          <mxGeometry x="0.0028" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-215" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="SL8McxTS5oP6oHlqmDnG-248">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="970" as="sourcePoint" />
+            <mxPoint x="55" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-216" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="230" as="sourcePoint" />
+            <mxPoint x="233" y="230.73000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-217" value="审批各状态" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontColor=#EA6B66;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-218" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-128" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.2;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.4;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="154" as="sourcePoint" />
+            <mxPoint x="233" y="155.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="176" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-129" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-130" value="发起审批" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#EA6B66;" vertex="1" connectable="0" parent="SL8McxTS5oP6oHlqmDnG-128">
+          <mxGeometry x="0.0139" y="-6" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-224" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;根据状态判断是否验证组件&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5224" y="20" relative="1" as="geometry">
+            <mxPoint x="430" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="370" />
+              <mxPoint x="585" y="400" />
+            </Array>
+            <mxPoint x="435" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-226" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;判断表单布局&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5224" y="20" relative="1" as="geometry">
+            <mxPoint x="430" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="290" />
+              <mxPoint x="585" y="320" />
+            </Array>
+            <mxPoint x="435" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-227" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;默认值处理&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5224" y="20" relative="1" as="geometry">
+            <mxPoint x="430" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="440" />
+              <mxPoint x="585" y="470" />
+            </Array>
+            <mxPoint x="435" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-236" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="585" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-237" value="表单结构，数据，&lt;div&gt;属性，事件系统&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontColor=#EA6B66;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-223" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;render&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;开启渲染组件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5821" y="20" relative="1" as="geometry">
+            <mxPoint x="600" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="755" y="540" />
+              <mxPoint x="755" y="570" />
+            </Array>
+            <mxPoint x="605" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-240" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;VModel&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;绑定表单值&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;监听透传输入值&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5821" y="20" relative="1" as="geometry">
+            <mxPoint x="600" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="755" y="640" />
+              <mxPoint x="755" y="670" />
+            </Array>
+            <mxPoint x="605" y="670" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-241" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;componentChild&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;静态或动态渲染子组件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5224" y="20" relative="1" as="geometry">
+            <mxPoint x="600" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="755" y="720" />
+              <mxPoint x="755" y="750" />
+            </Array>
+            <mxPoint x="605" y="750" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-242" value="组件物料" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=middle;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="715" y="20" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-244" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="790" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="800" as="sourcePoint" />
+            <mxPoint x="760" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-137" value="调用组件&lt;div&gt;H5端需组件适配&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontColor=#EA6B66;" connectable="0" vertex="1" parent="SL8McxTS5oP6oHlqmDnG-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-247" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;根据状态与数据编排组件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; line-height: 30%;&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=default;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.5224" y="10" relative="1" as="geometry">
+            <mxPoint x="770" y="830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="925" y="830" />
+              <mxPoint x="925" y="860" />
+            </Array>
+            <mxPoint x="775" y="860" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-250" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="SL8McxTS5oP6oHlqmDnG-248">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="970" as="sourcePoint" />
+            <mxPoint x="55" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SL8McxTS5oP6oHlqmDnG-248" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="850" width="10" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
